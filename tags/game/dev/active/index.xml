@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>game/dev/active on John Bezark</title><link>https://bezark.github.io/tags/game/dev/active/</link><description>Recent content in game/dev/active on John Bezark</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://bezark.github.io/tags/game/dev/active/index.xml" rel="self" type="application/rss+xml"/><item><title>Many Worlds Game</title><link>https://bezark.github.io/pages/many-worlds-game/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>https://bezark.github.io/pages/many-worlds-game/</guid><description>Resources
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>game/dev/active on Mind's Eye</title><link>/tags/game/dev/active/</link><description>Recent content in game/dev/active on Mind's Eye</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/tags/game/dev/active/index.xml" rel="self" type="application/rss+xml"/><item><title>Many Worlds Game</title><link>/pages/many-worlds-game/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/many-worlds-game/</guid><description>Resources
 Many Worlds Card Sheet Figma Notes
 First idea
-What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?</description></item></channel></rss>
+What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?</description><content>&lt;p>&lt;strong>Resources&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/spreadsheets/d/1gEx1OSpn43Dk8-vTs81slN-nGl1YgStwIbgDTi3VxWs/edit#gid=0">Many Worlds Card Sheet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.figma.com/files/project/45634848/ManyWorlds?fuid=892430102590771977">Figma&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Notes&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>First idea&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Deckbuilding [[megagame]] / [[divination]]&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>[[Time Final Project]] Introduction&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>A divination tool and deck building cardgame for embodying pasts, imagining futures and articulating alternate civilizations&lt;/em>&lt;/li>
+&lt;li>I want to create a divination deck or collaborative storytelling ttrpg with cardbased deck building that helps players tell the story of an entire civilization in single sitting. I want to imagine what it&amp;rsquo;s like to fly through many different histories and possible futures in an imaginative and collaborative way that is also rooted in real historical trends and patterns. I want to imagine a civilization game that escapes the tropes of competition, hegenomy and capitalism and encourages players to remember and imagine all the alternative ways of being that have existed or may exist yet.&lt;/li>
+&lt;li>I want to explore generational change, the history of technology and &amp;lsquo;progress&amp;rsquo; and ecological transformation and a bunch of other &amp;lsquo;big things&amp;rsquo; in a light and speculative way.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;h2 id="things-i-have-already-made-or-am-making-that-feel-relevant">Things I have already made or am making that feel relevant&lt;/h2>
+&lt;/li>
+&lt;/ul>
+&lt;p>Milestones&lt;/p>
+&lt;ul>
+&lt;li>{{query (and (and (task TODO DOING NOW) (property tags Milestones)) (property domain &lt;a href="/pages/many-worlds-game/">Many Worlds Game&lt;/a> )) }}
+query-table:: true
+query-properties:: [:block :when :domain]
+query-sort-by:: when
+query-sort-desc:: false&lt;/li>
+&lt;/ul>
+&lt;p>Working With [[Benny]]&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>[[Benny]] convo about &lt;a href="/pages/many-worlds-game/">Many Worlds Game&lt;/a> [[Milestones]]&lt;/p>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></content></item></channel></rss>
