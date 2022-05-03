@@ -2,17 +2,342 @@
 In particular this very Basic Documentation of [[activity hub]]
 and I was struck by how different things could have been on [[the internet]].
 I Tooted about it:
-Like literally how did we all agree to just NOT have interoperable social networks??? Looking at the activity pub docs makes it clear how ridiculously easy that would have been.</description></item><item><title>How this Site Works</title><link>/pages/how-this-site-works/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/how-this-site-works/</guid><description>Huh. [[John Bezark]]</description></item><item><title>John Bezark</title><link>/pages/john-bezark/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/john-bezark/</guid><description/></item><item><title>LogSeq P5 Page Word Cloud</title><link>/pages/logseq-p5-page-word-cloud/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/pages/logseq-p5-page-word-cloud/</guid><description>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:
+Like literally how did we all agree to just NOT have interoperable social networks??? Looking at the activity pub docs makes it clear how ridiculously easy that would have been.</description><content>&lt;p>I was looking today at Thoughts on [[mastadon]] [[activity hub]] [[fediverse]]&lt;/p>
+&lt;p>In particular &lt;a href="https://www.w3.org/TR/activitypub/">this very Basic Documentation&lt;/a> of [[activity hub]]&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>and I was struck by how different things could have been on [[the internet]].&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I Tooted about it:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;!-- raw HTML omitted -->
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Like literally how did we all agree to just NOT have interoperable social networks??? Looking at the activity pub docs makes it clear how ridiculously easy that would have been. You want my content? Just GET my outbox. Want to send me something? Just POST to my inbox. The server can be anything you want, just format your messages in this (VERY INTUITIVE!) way. It&amp;rsquo;s so simple it&amp;rsquo;s STUPID.
+I&amp;rsquo;m very new to all of this, so I&amp;rsquo;ll admit that there&amp;rsquo;s a lot I don&amp;rsquo;t know, but what is painfully obvious right now is how, yet again, the tendrils of Capitalism have fundamentally altered the STRUCTURE of the Internet to make it less open, less empowering and generally WORSE for most users. However, what&amp;rsquo;s also becoming clear is that it does not have to be that way, and being here is in some small way, bringing about that better possible future.&lt;/p>
+&lt;pre>&lt;code>+
++ And it's really true...
++ Something then particularly interesting is the idea that a [[logseq]] graph could in turn just be a [[federated]] [[mastadon]] server. Or a feed.
++ Essentially the idea then that each block could be a published activity. Could live as an activity / a toot
++ That a server could really just be a [[Graph Database]]
++ and [[wikilink]] and [[hashtags]] are equivalent.
++ That data should just be [[interoperable]], it should be [[immutable]].
++ I obviously don't mean that it should be unable to be deleted
++ Also what if you could just look at people as their handles- like as pages in logseq.
++ [[mastadon]] Docs
++
+&lt;/code>&lt;/pre></content></item><item><title>How this Site Works</title><link>/pages/how-this-site-works/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/how-this-site-works/</guid><description>Huh. [[John Bezark]]</description><content>&lt;p>Huh.
+[[John Bezark]]&lt;/p></content></item><item><title>John Bezark</title><link>/pages/john-bezark/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/john-bezark/</guid><description/><content/></item><item><title>LogSeq P5 Page Word Cloud</title><link>/pages/logseq-p5-page-word-cloud/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/pages/logseq-p5-page-word-cloud/</guid><description>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:
 [[journal]] entries
-[[Dreams]] for my dream journals</description></item><item><title>100 Days of Thesis</title><link>/pages/100-days-of-thesis/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/100-days-of-thesis/</guid><description>{{namespace 100 Days of Thesis}}
+[[Dreams]] for my dream journals</description><content>&lt;p>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>[[journal]] entries&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[[Dreams]] for my dream journals&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>emotional concepts like when I&amp;rsquo;m [[hard on myself]]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>and all sorts of stuff!&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;p>Here&amp;rsquo;s the &lt;a href="https://github.com/bezark/p5-logseq-wordcloud">GitHub Repo&lt;/a>&lt;/p>
+&lt;h2 id="how-i-did-it">How I did it&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>I found this decent example for making a wordcloud in p5 with rita,js&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[[p5 js]] [[Language analysis]] Examples&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://editor.p5js.org/fauthereea/sketches/aKByHsRr2">Wordcloud&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">params&lt;/span> &lt;span style="color:#f92672">=&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ignoreStopWords&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ignoreCase&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">ignorePunctuation&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">counts&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">RiTa&lt;/span>.&lt;span style="color:#a6e22e">concordance&lt;/span>(&lt;span style="color:#a6e22e">lines&lt;/span>.&lt;span style="color:#a6e22e">join&lt;/span>(&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>),
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">params&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">total&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">totalValues&lt;/span>(&lt;span style="color:#a6e22e">counts&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>+ The [[logseq]] api is fairly straightforward and allows you to create plugins that are essentially just iframes that can be opened and closed.
++ There's an index.js file with this stuff
++
+&lt;/code>&lt;/pre>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * User model
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">createModel&lt;/span> () {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">openSketch&lt;/span> () {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// logseq.App.showMsg(&amp;#39;hello, mind map&amp;#39;)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">showMainUI&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span> () {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">provideStyle&lt;/span>(&lt;span style="color:#e6db74">`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> @import url(&amp;#34;https://at.alicdn.com/t/font_2409735_lkeod9mm2ej.css&amp;#34;);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> `&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">setMainUIInlineStyle&lt;/span>({
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// position: &amp;#39;fixed&amp;#39;,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// zIndex: 12,
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> })
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">App&lt;/span>.&lt;span style="color:#a6e22e">registerUIItem&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;pagebar&amp;#39;&lt;/span>, {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">key&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;another-open-mind&amp;#39;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">template&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;a data-on-click=&amp;#34;openSketch&amp;#34; title=&amp;#34;open sketch&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;i class=&amp;#34;iconfont icon-icons-mind_map&amp;#34; style=&amp;#34;font-size: 18px; line-height: 1em;&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> &amp;lt;/a&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> `&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> })
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// main ui
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// const root = document.querySelector(&amp;#39;#app&amp;#39;)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">btnClose&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;button&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">displaySketch&lt;/span> &lt;span style="color:#f92672">=&lt;/span> document.&lt;span style="color:#a6e22e">createElement&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;div&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// events
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">displaySketch&lt;/span>.&lt;span style="color:#a6e22e">id&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;sketchey&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// displaySketch.classList.add(&amp;#39;mind-display&amp;#39;, &amp;#39;hidden&amp;#39;)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">btnClose&lt;/span>.&lt;span style="color:#a6e22e">textContent&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;CLOSE&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">btnClose&lt;/span>.&lt;span style="color:#a6e22e">classList&lt;/span>.&lt;span style="color:#a6e22e">add&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;close-btn&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">btnClose&lt;/span>.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;click&amp;#39;&lt;/span>, () =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">hideMainUI&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }, &lt;span style="color:#66d9ef">false&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> document.&lt;span style="color:#a6e22e">addEventListener&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;keydown&amp;#39;&lt;/span>, &lt;span style="color:#66d9ef">function&lt;/span> (&lt;span style="color:#a6e22e">e&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">e&lt;/span>.&lt;span style="color:#a6e22e">keyCode&lt;/span> &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#ae81ff">27&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">hideMainUI&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">p&lt;/span>.&lt;span style="color:#a6e22e">noLoop&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }, &lt;span style="color:#66d9ef">false&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">on&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;ui:visible:changed&amp;#39;&lt;/span>, &lt;span style="color:#66d9ef">async&lt;/span> ({ &lt;span style="color:#a6e22e">visible&lt;/span> }) =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#f92672">!&lt;/span>&lt;span style="color:#a6e22e">visible&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">displaySketch&lt;/span>.&lt;span style="color:#a6e22e">classList&lt;/span>.&lt;span style="color:#a6e22e">add&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;hidden&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">displaySketch&lt;/span>.&lt;span style="color:#a6e22e">innerHTML&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">currentPage&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">Editor&lt;/span>.&lt;span style="color:#a6e22e">getCurrentPage&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">backlinkedBlocks&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">DB&lt;/span>.&lt;span style="color:#a6e22e">datascriptQuery&lt;/span>(&lt;span style="color:#e6db74">`[:find (pull ?b [*])
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> :where
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?b :block/path-refs [:block/name &amp;#34;`&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#a6e22e">currentPage&lt;/span>.&lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#e6db74">`&amp;#34;]]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?page :block/original-name ?name]]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// console.log(backlinkedBlocks)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">textHonk&lt;/span> &lt;span style="color:#f92672">=&lt;/span> []
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">blocky&lt;/span> &lt;span style="color:#66d9ef">of&lt;/span> &lt;span style="color:#a6e22e">backlinkedBlocks&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">textHonk&lt;/span>.&lt;span style="color:#a6e22e">push&lt;/span>(&lt;span style="color:#a6e22e">blocky&lt;/span>[&lt;span style="color:#ae81ff">0&lt;/span>].&lt;span style="color:#a6e22e">content&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// const blocks = await logseq.Editor.getCurrentPageBlocksTree()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">initSketch&lt;/span>(&lt;span style="color:#a6e22e">displaySketch&lt;/span>, &lt;span style="color:#a6e22e">btnClose&lt;/span>, &lt;span style="color:#a6e22e">textHonk&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> })
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// mount to root
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// root.append(displaySketch)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * @param el
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * @param btnClose
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * @param data
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">initSketch&lt;/span> (&lt;span style="color:#a6e22e">el&lt;/span>, &lt;span style="color:#a6e22e">btnClose&lt;/span>, &lt;span style="color:#a6e22e">data&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(&lt;span style="color:#f92672">!&lt;/span>&lt;span style="color:#a6e22e">p&lt;/span>){&lt;span style="color:#a6e22e">p&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span> &lt;span style="color:#a6e22e">p5&lt;/span>(&lt;span style="color:#a6e22e">sketch&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;sketchey&amp;#39;&lt;/span>);}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">p&lt;/span>.&lt;span style="color:#a6e22e">updateWordsToDraw&lt;/span>(&lt;span style="color:#a6e22e">data&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">p&lt;/span>.&lt;span style="color:#a6e22e">loop&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// let mind = new MindElixir(options)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// mind.init()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#a6e22e">patchRightBottomBar&lt;/span> &lt;span style="color:#f92672">=&lt;/span> () =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// const barWrap = document.querySelector(&amp;#39;toolbar.rb&amp;#39;)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// barWrap.appendChild(btnClose)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">setTimeout&lt;/span>(() =&amp;gt; {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">patchRightBottomBar&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// mind.initSide()
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// el.classList.remove(&amp;#39;hidden&amp;#39;)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }, &lt;span style="color:#ae81ff">16&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// bootstrap
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">ready&lt;/span>(&lt;span style="color:#a6e22e">createModel&lt;/span>(), &lt;span style="color:#a6e22e">main&lt;/span>).&lt;span style="color:#66d9ef">catch&lt;/span>(&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">error&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> + And then a sketch.js with this stuff
++ Notably, p5 is in instance mode so it can attach nicely to the div that logseq makes.
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>
+&lt;p>The real tricky part was figuring out how to get logseq to query itself for all the blocks with the correct pages&lt;/p>
+&lt;ul>
+&lt;li>The database is built in datomic/datascript and the syntax for that query was&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">backlinkedBlocks&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">DB&lt;/span>.&lt;span style="color:#a6e22e">datascriptQuery&lt;/span>(&lt;span style="color:#e6db74">`[:find (pull ?b [*])
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> :where
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?b :block/path-refs [:block/name &amp;#34;`&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#a6e22e">currentPage&lt;/span>.&lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#e6db74">`&amp;#34;]]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?page :block/original-name ?name]]
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> + I don't realllly know how that worked, but it did!
+&lt;/code>&lt;/pre>
+&lt;ul>
+&lt;li>There&amp;rsquo;s still some cleaning up to do with it, but I&amp;rsquo;m already finding it a really interesting tool!&lt;/li>
+&lt;/ul>
+&lt;h1 id="next-steps">Next Steps&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://t.co/vq3ii3p3My">https://t.co/vq3ii3p3My&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://nearley.js.org/">Nearley&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></content></item><item><title>100 Days of Thesis</title><link>/pages/100-days-of-thesis/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/100-days-of-thesis/</guid><description>{{namespace 100 Days of Thesis}}
 First Phase Making Player Indigo Games
-Game Loop</description></item><item><title>Digital Gardens</title><link>/pages/digital-gardens/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/digital-gardens/</guid><description>Digital Gardens are emerging as a new-ish form of personal blogging and managing knowledge. There is a lot of good thinking on them over here on the Digital Gardeners Repo. [[Maggie Appleton]], prolific digital gardener and originator of the above repository, has written an excellent primer on the etymology and history of digital gardens. Here are one notable excerpts describing the concept:
-Digital Gardens are not following the same conventions as what we&amp;rsquo;ve come to know as the &amp;ldquo;personal blog&amp;rdquo;.</description></item><item><title>Futures</title><link>/pages/futures/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/futures/</guid><description>How this Site Works How this Site Works
-Digital Gardens</description></item><item><title>Many Worlds Game</title><link>/pages/many-worlds-game/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/many-worlds-game/</guid><description>Resources
+Game Loop</description><content>&lt;p>{{namespace &lt;a href="/pages/100-days-of-thesis/">100 Days of Thesis&lt;/a>}}&lt;/p>
+&lt;p>First Phase Making &lt;a href="/pages/player-indigo-games/">Player Indigo Games&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Game Loop&lt;/li>
+&lt;/ul></content></item><item><title>Digital Gardens</title><link>/pages/digital-gardens/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/digital-gardens/</guid><description>Digital Gardens are emerging as a new-ish form of personal blogging and managing knowledge. There is a lot of good thinking on them over here on the Digital Gardeners Repo. [[Maggie Appleton]], prolific digital gardener and originator of the above repository, has written an excellent primer on the etymology and history of digital gardens. Here are one notable excerpts describing the concept:
+Digital Gardens are not following the same conventions as what we&amp;rsquo;ve come to know as the &amp;ldquo;personal blog&amp;rdquo;.</description><content>&lt;p>Digital Gardens are emerging as a new-ish form of personal blogging and managing knowledge. There is a lot of good thinking on them over here on the &lt;a href="https://github.com/MaggieAppleton/digital-gardeners">Digital Gardeners Repo&lt;/a>.
+[[Maggie Appleton]], prolific digital gardener and originator of the above repository, has written an excellent primer on the etymology and history of digital gardens. Here are one notable excerpts describing the concept:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;blockquote>
+&lt;p>Digital Gardens are not following the same conventions as what we&amp;rsquo;ve come to know as the &amp;ldquo;personal blog&amp;rdquo;. Rather than presenting a set of polished articles, displayed in reverse chronological order, these sites act more like freeform, work-in-progress wikis&amp;hellip;.They&amp;rsquo;re collections of evolving ideas that aren&amp;rsquo;t strictly organised by their publication date. They&amp;rsquo;re inherently exploratory – notes are linked through contextual associations. They aren&amp;rsquo;t refined or complete - notes are published as half-finished thoughts that will grow and evolve over time&amp;hellip;.They&amp;rsquo;re less rigid, less performative, and less perfect than the personal websites we&amp;rsquo;re used to seeing. It harkens back to the early days of the web when people had fewer notions of how websites &amp;ldquo;should be.&amp;rdquo; It&amp;rsquo;s an ethos that is both classically old and newly imagined.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-garden-as-articulated-in-the-garden-and-the-stream-a-technopastoral">The Garden as articulated in [[The Garden and the Stream A Technopastoral]]&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>According to Appleton, one of the origins of the phrase &amp;lsquo;Digital Gardens&amp;rsquo; comes from a talk/article called &lt;em>The Garden and the Stream&lt;/em> by Mike Caufield. Broadly speaking, Caufield describes two major paradigms for interpreting our digital experiences: gardens and streams. Caufield posits that while the web originated as a garden, [[Web 2.0]] moved us into the world of [[The Stream]] at the expense of, well, a lot ogf things:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Caufield urges us to consider transitioning back into the web as a Garden. The Garden, having a specific rooting in nonlinearity:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;blockquote>
+&lt;p>The Garden is an old metaphor associated with hypertext. Those familiar with the history will recognize this. [[The Garden of Forking Paths]] from the mid-20th century. The concept of the Wiki Gardener from the 1990s. Mark Bernstein’s 1998 essay [[Hypertext Gardens]].&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;blockquote>
+&lt;p>The Garden is the web as topology. The web as space. It’s the integrative web, the iterative web, the web as an arrangement and rearrangement of things to one another.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;blockquote>
+&lt;p>Things in the Garden don’t collapse to a single set of relations or canonical sequence, and that’s part of what we mean when we say “the web as topology” or the “web as space”. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships (&lt;a href="https://instapaper.com/read/1442012440/17371009">View Highlight&lt;/a>)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;blockquote>
+&lt;p>&amp;hellip;the multi-linear nature of the garden means that there is no one right view of the bridge, no one correct approach. The architect creates the bridge, but it is the visitors to the park which create the bridge’s meaning. A good bridge supports many approaches, many views, many seasons, maybe many uses, and the meaning of that bridge will even evolve for the architect over time. (&lt;a href="https://instapaper.com/read/1442012440/17371011">View Highlight&lt;/a>)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://maggieappleton.com/garden-history">Maggie Appleton&amp;rsquo;s Essay&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></content></item><item><title>Futures</title><link>/pages/futures/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/futures/</guid><description>How this Site Works How this Site Works
+Digital Gardens</description><content>&lt;p>&lt;a href="/pages/how-this-site-works/">How this Site Works&lt;/a>
+&lt;a href="/pages/john-bezark/">How this Site Works&lt;/a>&lt;/p>
+&lt;p>&lt;a href="/pages/digital-gardens/">Digital Gardens&lt;/a>&lt;/p></content></item><item><title>Many Worlds Game</title><link>/pages/many-worlds-game/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/many-worlds-game/</guid><description>Resources
 Many Worlds Card Sheet Figma Notes
 First idea
-What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?</description></item><item><title>Player Indigo Games</title><link>/pages/player-indigo-games/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/player-indigo-games/</guid><description>Howdy! Here&amp;rsquo;s all the versions of the game I&amp;rsquo;m making for the [[Player Indigo Residency]]
+What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?</description><content>&lt;p>&lt;strong>Resources&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.google.com/spreadsheets/d/1gEx1OSpn43Dk8-vTs81slN-nGl1YgStwIbgDTi3VxWs/edit#gid=0">Many Worlds Card Sheet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.figma.com/files/project/45634848/ManyWorlds?fuid=892430102590771977">Figma&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Notes&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>First idea&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>What if there was some sort of game that was sort of like a tarrot deck, sort of like a trading card game, sort of like a world building rpg where you played driving forces, events or things from your hand and used them to shape the history of a world and imagine it&amp;rsquo;s future?&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Deckbuilding [[megagame]] / [[divination]]&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>[[Time Final Project]] Introduction&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>A divination tool and deck building cardgame for embodying pasts, imagining futures and articulating alternate civilizations&lt;/em>&lt;/li>
+&lt;li>I want to create a divination deck or collaborative storytelling ttrpg with cardbased deck building that helps players tell the story of an entire civilization in single sitting. I want to imagine what it&amp;rsquo;s like to fly through many different histories and possible futures in an imaginative and collaborative way that is also rooted in real historical trends and patterns. I want to imagine a civilization game that escapes the tropes of competition, hegenomy and capitalism and encourages players to remember and imagine all the alternative ways of being that have existed or may exist yet.&lt;/li>
+&lt;li>I want to explore generational change, the history of technology and &amp;lsquo;progress&amp;rsquo; and ecological transformation and a bunch of other &amp;lsquo;big things&amp;rsquo; in a light and speculative way.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;h2 id="things-i-have-already-made-or-am-making-that-feel-relevant">Things I have already made or am making that feel relevant&lt;/h2>
+&lt;/li>
+&lt;/ul>
+&lt;p>Milestones&lt;/p>
+&lt;ul>
+&lt;li>{{query (and (and (task TODO DOING NOW) (property tags Milestones)) (property domain &lt;a href="/pages/many-worlds-game/">Many Worlds Game&lt;/a> )) }}
+query-table:: true
+query-properties:: [:block :when :domain]
+query-sort-by:: when
+query-sort-desc:: false&lt;/li>
+&lt;/ul>
+&lt;p>Working With [[Benny]]&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>[[Benny]] convo about &lt;a href="/pages/many-worlds-game/">Many Worlds Game&lt;/a> [[Milestones]]&lt;/p>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></content></item><item><title>Player Indigo Games</title><link>/pages/player-indigo-games/</link><pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate><guid>/pages/player-indigo-games/</guid><description>Howdy! Here&amp;rsquo;s all the versions of the game I&amp;rsquo;m making for the [[Player Indigo Residency]]
 I&amp;rsquo;m using this as a chance to really develop my [[itp/Thesis]] and I&amp;rsquo;m walking into this trying to make an iteration of a Many Worlds Game
 Namely I&amp;rsquo;m trying to make:
 A divination tool and deck building cardgame for embodying pasts, imagining futures and articulating alternate civilizations
-I want to create a divination deck or collaborative storytelling ttrpg with cardbased deck building that helps players tell the story of an entire civilization in single sitting.</description></item></channel></rss>
+I want to create a divination deck or collaborative storytelling ttrpg with cardbased deck building that helps players tell the story of an entire civilization in single sitting.</description><content>&lt;p>Howdy! Here&amp;rsquo;s all the versions of the game I&amp;rsquo;m making for the [[Player Indigo Residency]]&lt;/p>
+&lt;p>I&amp;rsquo;m using this as a chance to really develop my [[itp/Thesis]] and I&amp;rsquo;m walking into this trying to make an iteration of a &lt;a href="/pages/many-worlds-game/">Many Worlds Game&lt;/a>&lt;/p>
+&lt;p>Namely I&amp;rsquo;m trying to make:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>A divination tool and deck building cardgame for embodying pasts, imagining futures and articulating alternate civilizations&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I want to create a divination deck or collaborative storytelling ttrpg with cardbased deck building that helps players tell the story of an entire civilization in single sitting. I want to imagine what it&amp;rsquo;s like to fly through many different histories and possible futures in an imaginative and collaborative way that is also rooted in real historical trends and patterns. I want to imagine a civilization game that escapes the tropes of competition, hegenomy and capitalism and encourages players to remember and imagine all the alternative ways of being that have existed or may exist yet.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>I want to explore generational change, the history of technology and &amp;lsquo;progress&amp;rsquo; and ecological transformation and a bunch of other &amp;lsquo;big things&amp;rsquo; in a light and speculative way.&lt;/p>
+&lt;/li>
+&lt;/ul></content></item></channel></rss>
