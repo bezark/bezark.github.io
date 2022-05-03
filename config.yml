@@ -1,7 +1,7 @@
 baseURL: https://bezark.github.io
 languageCode: en-us
 title: John Bezark
-theme: "PaperMod"
+theme: "terminal"
 
 params:
   homeInfoParams:
