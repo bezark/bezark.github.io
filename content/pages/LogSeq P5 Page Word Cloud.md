@@ -5,6 +5,9 @@ categories:
 date: 2022-02-21
 lastMod: 2022-02-21
 ---
+
+## Initial Idea
+
 What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I've linked to that page. That's really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:
 
 
@@ -17,7 +20,6 @@ What I decided to go for though was simply getting a wordcloud into a p5 plugin 
   + and all sorts of stuff!
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d02f59e72eac432c9813a115e6196818" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 
 
 Here's the [GitHub Repo](https://github.com/bezark/p5-logseq-wordcloud)
@@ -43,13 +45,13 @@ let counts = RiTa.concordance(lines.join(" "),
 let total = totalValues(counts);
 ```
 
-    + The [[logseq]] api is fairly straightforward and allows you to create plugins that are essentially just iframes that can be opened and closed.
+The [[logseq]] api is fairly straightforward and allows you to create plugins that are essentially just iframes that can be opened and closed.
 
 
-      + There's an index.js file with this stuff
+There's an index.js file with this stuff
 
 
-        + 
+      
 
 ```js
 /**
@@ -168,14 +170,14 @@ logseq.ready(createModel(), main).catch(console.error)
 
 ```
 
-      + And then a sketch.js with this stuff
+And then a sketch.js with this stuff
 
-    + Notably, p5 is in instance mode so it can attach nicely to the div that logseq makes.
+Notably, p5 is in instance mode so it can attach nicely to the div that logseq makes.
 
-  + The real tricky part was figuring out how to get logseq to query itself for all the blocks with the correct pages
+The real tricky part was figuring out how to get logseq to query itself for all the blocks with the correct pages
 
 
-    + The database is built in datomic/datascript and the syntax for that query was
+The database is built in datomic/datascript and the syntax for that query was
 
 
 ```js
@@ -186,11 +188,11 @@ logseq.ready(createModel(), main).catch(console.error)
 `)
 ```
 
-      + I don't realllly know how that worked, but it did!
+  + I don't realllly know how that worked, but it did!
 
   + There's still some cleaning up to do with it, but I'm already finding it a really interesting tool!
 
-# Next Steps
+## Next Steps
 
   + https://t.co/vq3ii3p3My
 

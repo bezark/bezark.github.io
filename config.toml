@@ -3,7 +3,8 @@ languageCode = "en-us"
 theme = "johnminal"
 paginate = 5
 
-
+[markup.goldmark.renderer]
+unsafe= true
 [params]
 Content= "This is something shows in your homepage."
   # dir name of your main content (default is `content/posts`).
