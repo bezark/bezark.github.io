@@ -2,7 +2,7 @@
 In particular this very Basic Documentation of [[activity hub]]
 and I was struck by how different things could have been on [[the internet]].
 I Tooted about it:
-Like literally how did we all agree to just NOT have interoperable social networks??? Looking at the activity pub docs makes it clear how ridiculously easy that would have been.</description><content>&lt;p>I was looking today at Thoughts on [[mastadon]] [[activity hub]] [[fediverse]]&lt;/p>
++ WOW. Yeah I've been on mastadon for like only five days now but I'm already flabbergasted at the world that should have been... https://www.</description><content>&lt;p>I was looking today at Thoughts on [[mastadon]] [[activity hub]] [[fediverse]]&lt;/p>
 &lt;p>In particular &lt;a href="https://www.w3.org/TR/activitypub/">this very Basic Documentation&lt;/a> of [[activity hub]]&lt;/p>
 &lt;ul>
 &lt;li>
@@ -12,7 +12,8 @@ Like literally how did we all agree to just NOT have interoperable social networ
 &lt;p>I Tooted about it:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;!-- raw HTML omitted -->
+&lt;iframe src="https://mstdn.social/@zebark/108223733728771617/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400", height="800" allowfullscreen="allowfullscreen">&lt;/iframe>&lt;script src="https://mstdn.social/embed.js" async="async">&lt;/script>
++ > WOW. Yeah I've been on mastadon for like only five days now but I'm already flabbergasted at the world that should have been... https://www.w3.org/TR/activitypub/#Overview
 &lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -31,9 +32,10 @@ I&amp;rsquo;m very new to all of this, so I&amp;rsquo;ll admit that there&amp;rs
 + [[mastadon]] Docs
 +
 &lt;/code>&lt;/pre></content></item><item><title>How this Site Works</title><link>/pages/how-this-site-works/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/how-this-site-works/</guid><description>Huh. [[John Bezark]]</description><content>&lt;p>Huh.
-[[John Bezark]]&lt;/p></content></item><item><title>John Bezark</title><link>/pages/john-bezark/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/john-bezark/</guid><description/><content/></item><item><title>LogSeq P5 Page Word Cloud</title><link>/pages/logseq-p5-page-word-cloud/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/pages/logseq-p5-page-word-cloud/</guid><description>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:
+[[John Bezark]]&lt;/p></content></item><item><title>John Bezark</title><link>/pages/john-bezark/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>/pages/john-bezark/</guid><description/><content/></item><item><title>LogSeq P5 Page Word Cloud</title><link>/pages/logseq-p5-page-word-cloud/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>/pages/logseq-p5-page-word-cloud/</guid><description>Initial Idea What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:
 [[journal]] entries
-[[Dreams]] for my dream journals</description><content>&lt;p>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:&lt;/p>
+[[Dreams]] for my dream journals</description><content>&lt;h2 id="initial-idea">Initial Idea&lt;/h2>
+&lt;p>What I decided to go for though was simply getting a wordcloud into a p5 plugin from my [[Logseq]] page entries. Clicking the graph button creates a word cloud for all times I&amp;rsquo;ve linked to that page. That&amp;rsquo;s really nice because in logseq, essentially anything can be a page, and I have a lot of pages for specific parts of my life:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>[[journal]] entries&lt;/p>
@@ -48,7 +50,7 @@ I&amp;rsquo;m very new to all of this, so I&amp;rsquo;ll admit that there&amp;rs
 &lt;p>and all sorts of stuff!&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;!-- raw HTML omitted -->
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0;">&lt;iframe src="https://www.loom.com/embed/d02f59e72eac432c9813a115e6196818" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">&lt;/iframe>&lt;/div>
 &lt;p>Here&amp;rsquo;s the &lt;a href="https://github.com/bezark/p5-logseq-wordcloud">GitHub Repo&lt;/a>&lt;/p>
 &lt;h2 id="how-i-did-it">How I did it&lt;/h2>
 &lt;ul>
@@ -70,10 +72,8 @@ I&amp;rsquo;m very new to all of this, so I&amp;rsquo;ll admit that there&amp;rs
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">counts&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">RiTa&lt;/span>.&lt;span style="color:#a6e22e">concordance&lt;/span>(&lt;span style="color:#a6e22e">lines&lt;/span>.&lt;span style="color:#a6e22e">join&lt;/span>(&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>),
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">params&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">total&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">totalValues&lt;/span>(&lt;span style="color:#a6e22e">counts&lt;/span>);
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>+ The [[logseq]] api is fairly straightforward and allows you to create plugins that are essentially just iframes that can be opened and closed.
-+ There's an index.js file with this stuff
-+
-&lt;/code>&lt;/pre>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The [[logseq]] api is fairly straightforward and allows you to create plugins that are essentially just iframes that can be opened and closed.&lt;/p>
+&lt;p>There&amp;rsquo;s an index.js file with this stuff&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">/**
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> * User model
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"> */&lt;/span>
@@ -187,28 +187,24 @@ I&amp;rsquo;m very new to all of this, so I&amp;rsquo;ll admit that there&amp;rs
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// bootstrap
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">ready&lt;/span>(&lt;span style="color:#a6e22e">createModel&lt;/span>(), &lt;span style="color:#a6e22e">main&lt;/span>).&lt;span style="color:#66d9ef">catch&lt;/span>(&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">error&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> + And then a sketch.js with this stuff
-+ Notably, p5 is in instance mode so it can attach nicely to the div that logseq makes.
-&lt;/code>&lt;/pre>
-&lt;ul>
-&lt;li>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And then a sketch.js with this stuff&lt;/p>
+&lt;p>Notably, p5 is in instance mode so it can attach nicely to the div that logseq makes.&lt;/p>
 &lt;p>The real tricky part was figuring out how to get logseq to query itself for all the blocks with the correct pages&lt;/p>
-&lt;ul>
-&lt;li>The database is built in datomic/datascript and the syntax for that query was&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
+&lt;p>The database is built in datomic/datascript and the syntax for that query was&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> &lt;span style="color:#a6e22e">backlinkedBlocks&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">await&lt;/span> &lt;span style="color:#a6e22e">logseq&lt;/span>.&lt;span style="color:#a6e22e">DB&lt;/span>.&lt;span style="color:#a6e22e">datascriptQuery&lt;/span>(&lt;span style="color:#e6db74">`[:find (pull ?b [*])
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> :where
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?b :block/path-refs [:block/name &amp;#34;`&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#a6e22e">currentPage&lt;/span>.&lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#e6db74">`&amp;#34;]]
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> [?page :block/original-name ?name]]
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> + I don't realllly know how that worked, but it did!
-&lt;/code>&lt;/pre>
-&lt;ul>
-&lt;li>There&amp;rsquo;s still some cleaning up to do with it, but I&amp;rsquo;m already finding it a really interesting tool!&lt;/li>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>I don&amp;rsquo;t realllly know how that worked, but it did!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There&amp;rsquo;s still some cleaning up to do with it, but I&amp;rsquo;m already finding it a really interesting tool!&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h1 id="next-steps">Next Steps&lt;/h1>
+&lt;h2 id="next-steps">Next Steps&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;a href="https://t.co/vq3ii3p3My">https://t.co/vq3ii3p3My&lt;/a>&lt;/p>
